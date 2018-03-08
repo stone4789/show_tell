@@ -1,0 +1,170 @@
+/* heading */
+.header {
+	padding: 20px;
+	text-align: center;
+    border: 3px solid black;
+}
+
+
+body, html {
+	height: 100%;
+	width:100%; 
+    top:100%; 
+    height: 100px;
+}
+
+/* Top Nav Bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: Black;
+    background-color: rgb(218,165,32);
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+/* Change color with hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+/* Box for Styles and Definitions */
+.style_list {
+    width: auto;
+    padding: 20px;
+    border: 3px solid black;
+    margin: 0; 
+}
+
+.survey {
+   text-align: center;
+}
+
+.style_intro {
+    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+/* Box for Untappd Photos and Labels */
+.examples {
+	width: auto;
+    padding: 2px;
+    border: 5px solid gray;
+    margin: 0; 
+}
+
+/* Colors for Style Names */
+dt.amber {
+	background-color: rgb(255, 191, 0);
+}
+
+dt.gold {	
+	background-color: rgb(218,165,32);
+	color: rgb(103, 10, 10);
+}
+
+dt.mahogany {
+	background-color: rgb(103, 10, 10);
+	color: rgb(255, 191, 0) ;
+}
+
+dt.raspberry {
+	background-color: rgb(227, 11, 93);
+	color: rgb(255, 191, 0);
+}
+
+dt.dark_brown {
+	background-color: rgb(101, 67, 33);
+	color: rgb(255, 191, 0);
+}
+
+dt {
+	border: 2px solid black;
+	font-family: "Times New Roman", Times, Serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+li {
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
+}
+
+/* Responsive Image Gallery */
+div.gallery {
+    border: 1px solid #ccc;
+    margin: 5px;
+    float: left;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    max-height: 200px;
+    display: inline-block;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.check-ins {
+    margin: 3px;
+    font-family: "Lucida Bright", Georgia, serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* Top Three Format */
+.favs {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+
+img.small {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0px auto;
+}
